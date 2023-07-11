@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.drop-area{
+    align-items: center;
+    min-height: 30vh;
+    border: 5px dashed #ddd;
+    height: 100px;
+    width: 900px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drop-area.active{
+    background-color: aqua;
+    color: black;
+    border: 2px dashed #a2b3c4;
+}
+
+.drop-area h2{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.drop-area span{
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.drop-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.file-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1 px #ddd;
+}
+
+#preview{
+    margin-top: 10px
+}
+
+.status-text{
+    padding: 0 10px;
+}
+.succes{
+    color: rgb(183, 236, 183)
+}
+
+.failure{
+    color: #ff0000;
+}

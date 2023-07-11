@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subir y descargar PDF</title>
+</head>
+<body>
+    <h2>Subir un archivo PDF</h2>
+    <form method="post" action="GuardarCertPrueba.php" enctype="multipart/form-data">
+        <label for="pdf">Selecciona un archivo PDF:</label>
+        <input type="file" name="pdf" id="pdf" accept=".pdf" required>
+        <br>
+        <input type="submit" value="Subir PDF">
+    </form>
+
+    <h2>Descargar archivo adjunto</h2>
+    <a href="DescargarPrueba.php">Descargar archivo adjunto</a>
+</body>
+</html>
